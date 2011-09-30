@@ -1,0 +1,22 @@
+## Interface: 40200
+## Title: LSLooter
+## Notes: Last Stand's addon for 10man looting
+## Author: Pogo
+## Version: 0.1a
+## SavedVariables: LSLooterDB
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceTimer-3.0\AceTimer-3.0.xml
+libs\AceLocale-3.0\AceLocale-3.0.xml
+#@end-no-lib-strip@
+
+locales\ruRU.lua
+locales\enUS.lua
+
+lslooter.lua

@@ -1,0 +1,26 @@
+﻿local debug = false
+
+local L = LibStub("AceLocale-3.0"):NewLocale("LSLooter", "ruRU", true, debug)
+
+L["Reset"] = "Сброс"
+L["Give"] = "Выдать"
+L["rolls"] = "выбрасывает"
+L["LSLooter commands:"] = "Команды LSLooter"
+L["Reset position"] = "Сбросить позиции фреймов"
+L["Show roster"] = "Отобразить ростер"
+L["Reset penalties"] = "Сбросить минуса"
+L["not allow"] = " не допускается к роллу."
+L["cancel"] = "отменить"
+L["to"] = ", "
+L["cant give"] = "Не получилось выдать "
+L["nowinner"] = "Нет победителя для этой вещи."
+L["winner"] = " - победитель - "
+L["no contenders"] = "нет претендентов."
+L["End roll"] = "Закончить ролл"
+L["Roll"] = "Ролим "
+L["Start roll"] = "Начать ролл"
+L["noitems"] = "Нет предметов"
+L["takes -5 pen"] = " получает -5 к роллу (итого: "
+L["takes -2 pen"] = " получает -2 к роллу (итого: "
+L["Penalities reset"] = "Минуса сброшены."
+L["init"] = "инициализирован."
